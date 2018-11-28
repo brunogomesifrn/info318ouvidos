@@ -74,7 +74,48 @@
 			</div>
 		</nav>
 
+ 
+    <form action="index.php" method="post">
 
+	<font color="IndianRed"><p> <b>Nome:</font>
+		<input type="text" name="nome" />
+	</p>	
+
+	<font color="IndianRed"><p><b>Data de nascimento: </font>
+	<input type="date" name="data_nascimento" />
+	</p>
+
+	<font color="IndianRed"><p> <b>Em algum momento da sua vida você teve depressão?<br/> </font>
+	<input type="radio" name="vida" value="nao" />Não 
+	<input type="radio" name="vida" value="sim" />Sim 
+	</p>
+
+	<font color="IndianRed"><p><b>Você conhece alguém que tem ou teve depressão?<br/> </font>
+	<input type="radio" name="conhece" value="nao" />Não 
+	<input type="radio" name="conhece" value="sim" />Sim 
+	</p>
+
+	<font color="IndianRed"><p> <b>Você tentou ajudar essa pessoa?<br/> </font>
+	<input type="radio" name="ajudar" value="nao" />Não 
+	<input type="radio" name="ajudar" value="sim" />Sim
+	</p>
+
+	<font color="IndianRed"><p> <b>Sua ajuda foi útil?<br/> </font>
+	<input type="radio" name="util" value="nao" />Não 
+	<input type="radio" name="util" value="sim" />Sim 
+	</p>
+		<font color="IndianRed"><p> <b> Deixe uma mensagem motivadora para alguém que sofre de depressão </b> </p></font>
+	<textarea rows="10" cols="40" maxlength="500"></textarea>
+
+	<font color="IndianRed"> <p ><b>Você gostou do site? <br/> </font>
+	<input type="radio" name="gostar" value="sim" />Sim 
+	<input type="radio" name="gostar" value="nao" />Não 
+	</p>
+
+<p>
+<input type="submit" value="Enviar dados" />
+</p>
+	</form>
 
 
 </body>
